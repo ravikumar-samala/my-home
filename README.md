@@ -1,3 +1,23 @@
+# Technology Stack
+- React
+- Zustand (State Management)
+- ThreeJs
+- React-three-fiber
+- React-three-drei
+
+# Development Process
+- Define Project
+- Create backlogs/issues
+- Set Milestone
+- Update backlogs/issues as and when developing
+- Close backlogs/issues once completed
+- Create dedicated branch for development & features
+- Practise atomic and conventional commits. Please refer: [this](https://www.conventionalcommits.org/en/v1.0.0/) and [this](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53).
+- Post development raise PR to master branch
+- Merge to master & Create a release
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
