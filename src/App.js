@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './my-home-town.png';
 import './App.css';
 import { 
   useAppStore, 
@@ -16,26 +16,21 @@ function App() {
   }
   
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2>
-          Logged in user - { loggedInUserName }
-        </h2>
-        <button onClick={() => changeUserName()} >Change user name</button>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="tableGrid">
+      <div className="logo">
+      <img src={logo} className="logoImg" alt="logo" />
+      </div>
+      <div className="box">
+      <div className="figure">
+        soem text
+        <hr className="line"></hr>
+      </div>
+      <div className="figure">
+        soem text
+        <hr className="line"></hr>
+      </div>
+      </div>
+      </div>
   );
 }
 
