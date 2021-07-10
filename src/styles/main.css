@@ -18,7 +18,7 @@ html{
   }
   .container{
     display: block;
-    width: 760px;
+    width: 90rem;
     margin: 0 auto;
     padding: 40px;
   }
@@ -26,6 +26,11 @@ html{
       flex-basis: calc(33.333% - 4rem);
       border: 4px solid;
       padding: 2rem;
+      float: left;
+      width: 36rem;
+      height: 36rem;
+      margin-right: 25px;
+      background-color: rgb(238, 89, 89);
   }
   .logoImg{
       display: block;
@@ -33,5 +38,17 @@ html{
       margin: 40px auto;
   }
   .line{
-      margin-top: 100px;
+      margin-top: 27rem;
+  }
+  .caption{
+    float: left;
+    width: 25rem;
+    font-size: 17px;
+  }
+  .arrow{
+    width: 36px;
+    
+    float: right;
+    height: 32px;
+    padding-top: 5px;
   }
