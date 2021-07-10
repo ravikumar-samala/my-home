@@ -20,7 +20,7 @@ function App() {
       <div className="logo">
       <img src={logo} className="logoImg" alt="logo" />
       </div>
-      <div className="box">
+      <div className="container">
       <div className="figure">
         soem text
         <hr className="line"></hr>

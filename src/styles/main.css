@@ -16,10 +16,11 @@ html{
   max-width:  100%;
 
   }
-  .box{
-    display: flex;
-    width: 100%;
-    padding-left: 10px;
+  .container{
+    display: block;
+    width: 760px;
+    margin: 0 auto;
+    padding: 40px;
   }
   .figure{
       flex-basis: calc(33.333% - 4rem);
@@ -27,7 +28,9 @@ html{
       padding: 2rem;
   }
   .logoImg{
-      width: 20%;
+      display: block;
+      width: 200px;
+      margin: 40px auto;
   }
   .line{
       margin-top: 100px;
