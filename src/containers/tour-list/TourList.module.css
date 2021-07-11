@@ -1,0 +1,11 @@
+.tourListWraper {
+    margin-bottom: 50px;
+}
+
+.tourListHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fefefe;
+}
