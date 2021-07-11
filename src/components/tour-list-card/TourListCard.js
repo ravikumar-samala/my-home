@@ -1,10 +1,14 @@
 import styles from "./TourListCard.module.css";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { MdShare } from "react-icons/md";
 
 const TourListCard = () => {
     return (
         <Card className={styles.tourListCard}>
+            <div className={styles.tourShareIcon}>
+                <MdShare />
+            </div>
             <Card.Body>
                 <Card.Title>
                     <h2>My Dubai Tour</h2>
