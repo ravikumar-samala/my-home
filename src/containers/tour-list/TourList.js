@@ -3,9 +3,9 @@ import Header from './../../components/common/header/Header';
 
 const TourList = () => {
     return (
-        <>
+        <div className={styles.styles}>
             <Header />
-        </>
+        </div>
     )
 }
 
