@@ -1,3 +1,25 @@
-.tourListWraper {
-    background-color: aqua;
+.tourListHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #fefefe;
+}
+
+.tourListCard {
+    padding: 12px;
+    background-color: #DB2B39;
+    color: #fefefe;
+    border-radius: 8px;
+}
+
+.tourListCardFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tourListCardFooterButton {
+    background-color: transparent !important;
+    outline: none !important;
+    border: none !important
 }
