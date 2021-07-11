@@ -1,4 +1,5 @@
 body {
     background-color: #4D9DE0;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: auto;
 }
