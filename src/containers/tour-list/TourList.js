@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+import TourListCard from './../../components/tour-list-card/TourListCard';
 
 const TourList = () => {
     return (
@@ -22,22 +22,10 @@ const TourList = () => {
                 
                 <Row>
                     <Col md={6}>
-                        <Card className={styles.tourListCard}>
-                            <Card.Body>
-                                <Card.Title>
-                                    <h2>My Dubai Tour</h2>
-                                </Card.Title>
-                                <Card.Text className="py-4">
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <div className={styles.tourListCardFooter}>
-                                    <Button className={styles.tourListCardFooterButton}>View</Button>
-                                    <Button className={styles.tourListCardFooterButton}>Edit</Button>
-                                    <Button className={styles.tourListCardFooterButton}>Delete</Button>
-                                </div>
-                            </Card.Body>
-                        </Card>
+                        <TourListCard />
+                    </Col>
+                    <Col md={6}>
+                        <TourListCard />
                     </Col>
                 </Row>
             </Container>
